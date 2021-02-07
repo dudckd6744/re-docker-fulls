@@ -30,7 +30,7 @@ deploy:
   env: "Redockerfulls-env"
   bucket_name: "elasticbeanstalk-ap-northeast-2-840213432037"
   bucket_pass: "re-docker-fulls"
-  on
+  on:
     branch: master
   
   access_key_id: $AWS_ACCESS_KEY
