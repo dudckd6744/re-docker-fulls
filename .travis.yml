@@ -1,11 +1,10 @@
-language: gerneric
+language: generic
 
 sudo: required
 
 services: docker
 
 before_install: 
-  - chmod +x gradlew
   - docker build -t dudckd/react-test-app -f ./frontend/Dockerfile.dev ./frontend
 
 script:
