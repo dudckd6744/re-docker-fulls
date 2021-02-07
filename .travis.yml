@@ -24,6 +24,7 @@ after_success:
 
 deploy:
   edge: true
+  github_token: $GITHUB_TOKEN
   provider: elasticbeanstalk
   region: "ap-northeast-2"
   app: "re-docker-fulls"
