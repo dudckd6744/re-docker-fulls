@@ -24,6 +24,7 @@ after_success:
 
 deploy:
   # edge: true
+  timeout: 30
   provider: elasticbeanstalk
   region: "ap-northeast-2"
   app: "re-docker-fulls"
